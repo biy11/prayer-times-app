@@ -37,3 +37,13 @@ tr:nth-child(even) {
     margin-top: 10px;
     font-style: italic;
 }
+
+.note{
+    background-color: #f9f9f9;
+    border: 1px solid #4CAF50;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 5px;
+    width: 80%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
