@@ -9,10 +9,10 @@ async function fetchPrayerTimes() {
 
     const jamaahTimes = {
         Fajr: "7:00",
-        Dhuhr: "13:00",
+        Dhuhr: "13:30",
         Asr: "13:45",
         Maghrib: "5 min after Adhan",
-        Isha: "17:30 (Day Shift),\n 19:00 (Night Shift)",
+        Isha: "17:40 (Day Shift),\n 19:00 (Night Shift)",
         Jummah: "13:00"
     };
 
