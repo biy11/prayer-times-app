@@ -10,7 +10,7 @@ async function fetchPrayerTimes() {
     const jamaahTimes = {
         Fajr: "7:00",
         Dhuhr: "13:30",
-        Asr: "13:45",
+        Asr: "",
         Maghrib: "5 min after Adhan",
         Isha: "17:40 (Day Shift),\n 19:00 (Night Shift)",
         Jummah: "13:00"
@@ -22,6 +22,9 @@ async function fetchPrayerTimes() {
 
         const timings = data.data.timings;
         const date = data.data.date.readable;
+
+        // Setting Asr to match athan time
+        jamaahTimes.Asr = timings.Asr;
 
         // Select the table body
         const tableBody = document.querySelector("#prayer-times tbody");
