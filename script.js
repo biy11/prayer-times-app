@@ -8,12 +8,12 @@ async function fetchPrayerTimes() {
     const apiUrl = `https://api.aladhan.com/v1/timings?latitude=${latitude}&longitude=${longitude}&method=${method}`;
 
     const jamaahTimes = {
-        Fajr: "7:00",
+        Fajr: "04:45",
         Dhuhr: "13:30",
         Asr: "",
         Maghrib: "5 min after Adhan",
         Isha: "19:00",
-        Jummah: "13:00"
+        Jummah: "13:30"
     };
 
     try {
