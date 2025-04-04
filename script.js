@@ -12,7 +12,7 @@ async function fetchPrayerTimes() {
         Dhuhr: "13:30",
         Asr: "",
         Maghrib: "5 min after Adhan",
-        Isha: "19:00",
+        Isha: "22:00",
         Jummah: "13:30"
     };
 
